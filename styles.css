@@ -1,0 +1,49 @@
+.title {
+    font-family: 'Shrikhand', serif;
+    font-size: 2.5rem;
+    color: #141E46;
+    text-align: center;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3rem;
+    background-color: #fff5e063;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: justify;
+}
+
+a {
+    text-decoration: none;
+    color: #FF6969;
+}
+
+a:hover {
+    color: #C70039;
+}
+
+a:visited {
+    color: #141E46;
+}
+
+.food-img {
+    border-radius: 1%;
+    margin-right: 20px;
+}
+
+h1 {
+    color: #141E46;
+    font-size: 3rem;
+}
+
+h2 {
+    color: #C70039;
+    font-size: 2rem;
+}
+
+.original {
+    font-style: italic;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
