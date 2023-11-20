@@ -1,21 +1,102 @@
-.title {
-    font-family: 'Shrikhand', serif;
-    font-size: 2.5rem;
-    color: #141E46;
-    text-align: center;
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
 }
 
 body {
     font-family: 'Poppins', sans-serif;
     font-size: 1.3rem;
     background-color: #fff5e063;
-    padding-left: 20px;
-    padding-right: 20px;
+}
+
+header {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    text-align: center;
+}
+
+.text-logo {
+    display: inline-block;
+    font-family: 'Shrikhand', serif;
+    font-size: 4rem;
+    color: #141E46;
+    padding-top: 25px;
+    margin-left: 5px;
+    margin-top: 30px;
+}
+
+.logo {
+    margin-top: 30px;
+    display: inline-block;
+}
+
+#section-end {
+    width: 300px;
+    margin: auto;
+    background-color: #141e46;
+    border-color: #141e46;
+    margin-top: 30px;
+    border-radius: 22%;
+    height: 4px;
+}
+
+.content {
+    margin: 80px 60px;
+    color: #333;
+}
+
+h2 {
+    color: #C70039;
+    font-size: 2.5rem;
+    margin: 15px 0;
+}
+
+.content p {
+    margin: 15px 0;
     text-align: justify;
+}
+
+.main-img {
+    position: relative;
+}
+
+.main-img::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 500px;
+    margin: 100px 0 20px 0;
+    background-color: hsla(0, 0%, 10%, 0.20);
+}
+
+#main-img {
+    object-fit:cover;
+    width: 100%;
+    height: 500px;
+    margin: 100px 0 20px 0;
+}
+
+.food-img {
+    border-radius: 1%;
 }
 
 a {
     text-decoration: none;
+    font-weight: 700;
     color: #FF6969;
 }
 
@@ -27,23 +108,22 @@ a:visited {
     color: #141E46;
 }
 
-.food-img {
-    border-radius: 1%;
-    margin-right: 20px;
+.recipes {
+    margin: 70px 30px;
 }
 
-h1 {
-    color: #141E46;
-    font-size: 3rem;
+.recipes li {
+    padding:3px;
 }
 
-h2 {
-    color: #C70039;
-    font-size: 2rem;
+.footer {
+    height: 200px;
+    margin-top: 20px;
 }
 
-.original {
-    font-style: italic;
+.footer p {
+    text-align: center;
+    padding-top: 50px;
     font-weight: 700;
-    font-size: 1.1rem;
+    color: #333;
 }
