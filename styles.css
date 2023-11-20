@@ -41,14 +41,15 @@ header {
     display: inline-block;
 }
 
-#section-end {
-    width: 300px;
+.section-end {
+    width: 80vw;
     margin: auto;
     background-color: #141e46;
     border-color: #141e46;
     margin-top: 30px;
     border-radius: 22%;
     height: 4px;
+    text-align: center;
 }
 
 .content {
@@ -109,16 +110,60 @@ a:visited {
 }
 
 .recipes {
-    margin: 70px 30px;
+    margin: 70px 30px 150px;
 }
 
 .recipes li {
     padding:3px;
 }
 
+.ingridients>li {
+    padding: 5px;
+}
+
+.preparation>li {
+    padding: 15px;
+}
+
+.original {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.recipes-nav-menu {
+    /* display: inline-block; */
+    margin-top: 100px;
+}
+
+.recipes-nav-menu .left {
+    display: inline-block;
+    text-align: left;
+    width: 35vw;
+}
+
+.recipes-nav-menu .right {
+    display: inline-block;
+    text-align: right;
+    width: 35vw;
+}
+
+.recipes-nav-menu .home {
+    display: inline-block;
+    width: 10vw;
+    text-align: center;
+}
+
+.home img:hover {
+    background-image: url(images/home-red.png);
+}
+
+.recipes-nav-menu .disable {
+    pointer-events: none;
+    opacity: 0.6;
+}
+
 .footer {
-    height: 200px;
-    margin-top: 20px;
+    height: 140px;
 }
 
 .footer p {
@@ -126,4 +171,5 @@ a:visited {
     padding-top: 50px;
     font-weight: 700;
     color: #333;
+    font-size: 1.2rem;
 }
